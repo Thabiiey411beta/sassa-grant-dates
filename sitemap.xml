@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://sassa-grant-dates.vercel.app/</loc><lastmod>2026-11-26</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://sassa-grant-dates.vercel.app/payment-dates.html</loc><lastmod>2026-11-26</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://sassa-grant-dates.vercel.app/grant-amounts.html</loc><lastmod>2026-11-26</lastmod><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sassa-grant-dates.vercel.app/calculator.html</loc><lastmod>2026-11-26</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sassa-grant-dates.vercel.app/srd-eligibility.html</loc><lastmod>2026-11-26</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sassa-grant-dates.vercel.app/how-to-check-status.html</loc><lastmod>2026-11-26</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sassa-grant-dates.vercel.app/grant-not-paid.html</loc><lastmod>2026-11-26</lastmod><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://sassa-grant-dates.vercel.app/updates.html</loc><lastmod>2026-11-26</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://sassa-grant-dates.vercel.app/about.html</loc><lastmod>2026-11-26</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://sassa-grant-dates.vercel.app/contact.html</loc><lastmod>2026-11-26</lastmod><changefreq>yearly</changefreq><priority>0.4</priority></url>
+  <url><loc>https://sassa-grant-dates.vercel.app/privacy.html</loc><lastmod>2026-11-26</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://sassa-grant-dates.vercel.app/terms.html</loc><lastmod>2026-11-26</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
+</urlset>

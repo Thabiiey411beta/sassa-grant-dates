@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Household Grant Calculator | How Much Does My Household Get From SASSA?</title>
+<meta name="description" content="Add up every SASSA grant in your household — older persons, disability, child support, foster child, SRD and more. Free, no sign-up, nothing you enter leaves your device.">
+<link rel="canonical" href="https://sassa-grant-dates.vercel.app/calculator.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Household Grant Calculator — SASSA Grant Dates">
+<meta property="og:description" content="Tick the grants your household receives and see the monthly total. Private: nothing leaves your device.">
+<meta property="og:url" content="https://sassa-grant-dates.vercel.app/calculator.html">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="disclaimer-bar">Independent website — not SASSA, not the South African Government. We cannot check your grant status. <a href="https://srd.sassa.gov.za/sc19/status">Check it on the official SASSA site &rarr;</a></div>
+<header class="site-header">
+  <div class="header-inner">
+    <p class="site-title"><a href="index.html">SASSA Grant Dates</a></p>
+    <p class="site-tagline">When is my grant paid, how much is it, and what do I do if it isn&rsquo;t there?</p>
+  </div>
+  <nav class="main-nav" aria-label="Main">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="payment-dates.html">Payment Dates</a></li>
+      <li><a href="grant-amounts.html">Amounts</a></li>
+      <li><a href="calculator.html" aria-current="page">Household Calculator</a></li>
+      <li><a href="srd-eligibility.html">SRD Check</a></li>
+      <li><a href="how-to-check-status.html">Check Status</a></li>
+      <li><a href="grant-not-paid.html">Grant Not Paid</a></li>
+      <li><a href="updates.html">Updates</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <h1>Household grant calculator</h1>
+  <p class="lede">Set how many people in your household get each grant, and see the total per month.</p>
+
+  <div class="card">
+    <div id="household-calculator"></div>
+  </div>
+
+  <p class="checked-line">Amounts: April 2026 rates (Foster Child R1,300 from 1 October 2026). Last checked 26 November 2026.</p>
+
+  <h2>How this works</h2>
+  <ul>
+    <li>Use the <strong>+ and − buttons</strong> to set how many people in your household get each grant. Two grandparents on the Older Persons Grant? Set it to 2.</li>
+    <li><strong>Child Support Top-up</strong> — only for children who have lost one or both parents. It is R280 on top of the R580 Child Support Grant, so R860 per child in total. Count the top-up separately from the child support grant itself.</li>
+    <li>The total updates as you tap. It is only an estimate — SASSA pays each grant separately, and your household total is just the sum of the grants you receive.</li>
+  </ul>
+
+  <div class="notice"><strong>Private by design.</strong> This calculator runs entirely in your browser. We do not ask for your name, ID number or phone number, and nothing you tick or type is sent to us or stored anywhere.</div>
+
+  <p>Not sure whether you qualify for the SRD grant? Take the <a href="srd-eligibility.html">SRD eligibility self-check</a>. Wondering when the money arrives? See the <a href="payment-dates.html">payment dates</a>.</p>
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <nav aria-label="Footer">
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms &amp; Disclaimer</a></li>
+      </ul>
+    </nav>
+    <p><strong>Independent website — not SASSA, not the South African Government.</strong> We are not affiliated with SASSA or the Department of Social Development. We cannot check your grant status, change your details or pay your grant. For anything official, use <a href="https://www.sassa.gov.za/">sassa.gov.za</a> or <a href="https://srd.sassa.gov.za/">srd.sassa.gov.za</a>, or call SASSA toll-free on 0800 601 011.</p>
+    <p>Figures on this site are checked against SASSA and Department of Social Development announcements. Last checked 26 November 2026. Dates and amounts can change — confirm on the official site before you travel.</p>
+  </div>
+</footer>
+<script src="config.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script src="js/ads.js"></script>
+</body>
+</html>

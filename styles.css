@@ -1,0 +1,150 @@
+/* SASSA Grant Dates — independent informational site. No SASSA branding used. */
+:root {
+  --navy: #14324a;
+  --teal: #0e7a6d;
+  --teal-dark: #0a5f55;
+  --amber: #c98a1b;
+  --amber-bg: #fdf6e3;
+  --bg: #f7f5f0;
+  --card: #ffffff;
+  --text: #1d2733;
+  --muted: #5a6b7a;
+  --line: #dfe5ea;
+  --green-bg: #e7f4ef;
+  --red: #a93226;
+  --red-bg: #fdecea;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  font-size: 17px;
+}
+a { color: var(--teal-dark); }
+a:hover { text-decoration: underline; }
+
+/* Top disclaimer banner — on every page */
+.disclaimer-bar {
+  background: var(--amber-bg);
+  border-bottom: 2px solid var(--amber);
+  color: #5c430a;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 16px;
+  text-align: center;
+}
+.disclaimer-bar a { color: #5c430a; text-decoration: underline; }
+
+header.site-header { background: var(--navy); color: #fff; }
+.header-inner { max-width: 760px; margin: 0 auto; padding: 18px 16px 12px; }
+.site-title { margin: 0; font-size: 26px; line-height: 1.25; }
+.site-title a { color: #fff; text-decoration: none; }
+.site-tagline { margin: 4px 0 0; color: #b9c9d6; font-size: 15px; }
+nav.main-nav { max-width: 760px; margin: 0 auto; padding: 0 16px 12px; }
+nav.main-nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 18px; }
+nav.main-nav a { color: #d7e3ec; text-decoration: none; font-size: 15px; padding: 4px 0; }
+nav.main-nav a:hover, nav.main-nav a[aria-current="page"] { color: #fff; text-decoration: underline; }
+
+main { max-width: 760px; margin: 0 auto; padding: 20px 16px 40px; }
+h1 { font-size: 27px; line-height: 1.3; margin: 0 0 8px; }
+h2 { font-size: 21px; margin: 28px 0 8px; }
+h3 { font-size: 18px; margin: 20px 0 6px; }
+p { margin: 0 0 12px; }
+.lede { font-size: 18px; color: var(--muted); }
+.small { font-size: 14px; color: var(--muted); }
+.checked-line { font-size: 14px; color: var(--muted); border-left: 3px solid var(--teal); padding-left: 10px; }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 16px;
+  margin: 16px 0;
+}
+.card h2, .card h3 { margin-top: 0; }
+
+table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 16px; }
+th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { background: var(--navy); color: #fff; font-size: 15px; }
+tr:last-child td { border-bottom: none; }
+td.num, th.num { text-align: right; white-space: nowrap; }
+.flag {
+  display: inline-block; font-size: 12px; font-weight: 700; color: var(--red);
+  background: var(--red-bg); border-radius: 4px; padding: 1px 6px; margin-left: 6px;
+  vertical-align: middle;
+}
+.next-badge {
+  display: inline-block; font-size: 13px; font-weight: 700; color: #fff;
+  background: var(--teal); border-radius: 4px; padding: 2px 8px; margin-left: 6px;
+}
+.countdown { font-size: 20px; font-weight: 700; color: var(--teal-dark); }
+.countdown .big { font-size: 30px; }
+
+.btn {
+  display: inline-block; background: var(--teal); color: #fff; text-decoration: none;
+  font-weight: 700; padding: 12px 20px; border-radius: 8px; border: none; cursor: pointer;
+  font-size: 17px; text-align: center;
+}
+.btn:hover { background: var(--teal-dark); text-decoration: none; }
+.btn-secondary { background: #fff; color: var(--teal-dark); border: 2px solid var(--teal); }
+.btn-secondary:hover { background: var(--green-bg); }
+.btn-block { display: block; width: 100%; margin: 8px 0; }
+
+.notice {
+  border: 1px solid var(--amber); background: var(--amber-bg);
+  border-radius: 8px; padding: 12px 14px; margin: 16px 0;
+}
+.notice strong { color: #5c430a; }
+.warn {
+  border: 1px solid var(--red); background: var(--red-bg);
+  border-radius: 8px; padding: 12px 14px; margin: 16px 0;
+}
+.good { border: 1px solid var(--teal); background: var(--green-bg); border-radius: 8px; padding: 12px 14px; margin: 16px 0; }
+
+ul, ol { margin: 0 0 12px; padding-left: 22px; }
+li { margin-bottom: 6px; }
+
+/* Calculator */
+.calc-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; border-bottom: 1px solid var(--line); }
+.calc-row:last-child { border-bottom: none; }
+.calc-row label { font-weight: 600; flex: 1; }
+.calc-row .amt { color: var(--muted); font-size: 15px; white-space: nowrap; }
+.qty { display: flex; align-items: center; gap: 8px; }
+.qty button {
+  width: 40px; height: 40px; font-size: 20px; border-radius: 8px;
+  border: 1px solid var(--line); background: #fff; cursor: pointer;
+}
+.qty output { min-width: 28px; text-align: center; font-weight: 700; }
+.calc-total { font-size: 22px; font-weight: 700; margin-top: 12px; }
+.calc-total span { color: var(--teal-dark); }
+.calc-lines { font-size: 15px; color: var(--muted); margin-top: 8px; }
+
+/* Eligibility flow */
+.quiz-q { display: none; }
+.quiz-q.active { display: block; }
+.quiz-progress { font-size: 14px; color: var(--muted); margin-bottom: 8px; }
+
+/* Ad slots: only rendered by js/ads.js when a client ID is configured */
+.ad-slot { margin: 20px 0; text-align: center; }
+
+footer.site-footer {
+  border-top: 1px solid var(--line);
+  background: #eef1f3;
+  padding: 20px 16px 28px;
+  font-size: 14px;
+  color: var(--muted);
+}
+.footer-inner { max-width: 760px; margin: 0 auto; }
+footer.site-footer nav ul { list-style: none; margin: 0 0 12px; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 18px; }
+
+@media (max-width: 560px) {
+  body { font-size: 16px; }
+  h1 { font-size: 23px; }
+  table { font-size: 15px; }
+  th, td { padding: 8px 6px; }
+  .site-title { font-size: 22px; }
+}
